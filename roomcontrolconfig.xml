@@ -1,0 +1,59 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>panel_1</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Tv</Icon>
+    <Order>1</Order>
+    <Color>#FFB400</Color>
+    <Name>Compositing</Name>
+    <Page>
+      <Name>Compositing</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>COMP1</WidgetId>
+          <Name>Full Screen</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>COMP2</WidgetId>
+          <Name>Pairs</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>COMP3</WidgetId>
+          <Name>Mixed</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>COMPcall</WidgetId>
+          <Name>In Call</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>COMPR</WidgetId>
+          <Name>Reset</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+  <Panel>
+    <PanelId>login</PanelId>
+    <Type>Home</Type>
+    <Icon>Home</Icon>
+    <Order>2</Order>
+    <Color>#FF503C</Color>
+    <Name>Log Out</Name>
+  </Panel>
+</Extensions>
